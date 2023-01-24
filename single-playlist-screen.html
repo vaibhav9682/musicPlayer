@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/bee9754418.js" crossorigin="anonymous"></script>
+
+    <title>Playlist</title>
+</head>
+
+<body class="body">
+    <header class="content-header">
+        <!-- navbar -->
+        <nav>
+            <div id="logo-container" class="white-p">
+                <img src="/major_project/images/logo.png" alt="logo">
+                <p>Favourites</p>
+            </div>
+            <div id="nav-right">
+                <form>
+                    <button id="search-button" type="button">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                    <input type="search" class="search-box" id="search-id" placeholder="Search">
+                    <button id="search-mic" type="button">
+                        <i class="fa-solid fa-microphone"></i>
+                    </button>
+
+                </form>
+                <button id="bell-icon" type="button" class="white-p black-back">
+                    <i class="fa-solid fa-bell"></i>
+                </button>
+                <div id="profile">
+                    <img class="full-img" src="/major_project/images/FB_IMG_1603865813499.jpg" alt="profile">
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- main content container -->
+    <main class="main-frame">
+        <div class="main-playlist-poster">
+            <div class="card mb-3 playlist-card white-p">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="/major_project/images/avatars-000237271265-7hhnty-t500x500.jpg"
+                            class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8" id="card-content">
+                        <div class="play-card-head">
+                            <div>
+                                <h4>ColdPlay</h4>
+                                <p>British Band</p>
+                            </div>
+                            <div>
+                                <p>851 Followers</p>
+                            </div>
+                        </div>
+                        <div class="play-card-para">
+                            Coldplay, British rock group whose melodic piano-driven anthems lifted it to the top of the
+                            pop music world in the early 21st century.
+                            Coldplay was formed in 1998 at University College, London, with the pairing of
+                            pianist-vocalist Chris Martin (b. March 2, 1977, Exeter, England) and guitarist Jonny
+                            Buckland (b. September 11, 1977, London).
+                        </div>
+                        <div class="play-card-footer">
+                            <div class="play-button">
+                                <button type="button" id="Play-Button" name="Play" value="Play All">
+                                    <b>Play All</b>
+                                </button>
+                                <p>246 Tracks | 146 Albums</p>
+                            </div>
+                            <div class="follow-button">
+                                <button type="button" name="Follow" value="Follow">Follow</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="album-songs">
+                <div class="queue-card playlist-songs">
+                    <div class="playlist-left">
+
+                        <span class="white-p dull" id="number-song">01</span>
+                        <div class="queue-img img-size">
+                            <img src="/major_project/images/queue1.jpg" alt="">
+                            <i class="fas play-btn fa-play white-p"></i>
+                        </div>
+                        <div class="song-play-name">
+                            <span class="white-p queue-disc">
+                                <p>Mirage</p>
+                                <p class="dull">else</p>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="queue-right playlist-icon">
+                        <button>
+                            <i class="far wishlist-icon fa-heart"></i>
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="queue-card playlist-songs">
+                    <div class="playlist-left">
+
+                        <span class="white-p dull" id="number-song">02</span>
+                        <div class="queue-img img-size">
+                            <img src="/major_project/images/queue2.jpg" alt="">
+                            <i class="fas play-btn fa-play white-p"></i>
+                        </div>
+                        <div class="song-play-name">
+                            <span class="white-p queue-disc">
+                                <p>Worry About Us</p>
+                                <p class="dull">Rosie Lowe</p>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="queue-right playlist-icon">
+                        <button>
+                            <i class="far wishlist-icon fa-heart"></i>
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="queue-card playlist-songs">
+                    <div class="playlist-left">
+
+                        <span class="white-p dull" id="number-song"><i class="fas fa-stream current-song"></i></span>
+                        <div class="queue-img img-size">
+                            <img src="/major_project/images/queue3.jpg" alt="">
+                            <i class="fas play-btn fa-play white-p"></i>
+                        </div>
+                        <div class="song-play-name">
+                            <span class="white-p queue-disc">
+                                <p>Kiss Me More</p>
+                                <p class="dull">Doja Cat</p>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="queue-right playlist-icon">
+                        <button>
+                            <i class="far wishlist-icon fa-heart"></i>
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="queue-card playlist-songs">
+                    <div class="playlist-left">
+
+                        <span class="white-p dull" id="number-song">04</span>
+                        <div class="queue-img img-size">
+                            <img src="/major_project/images/queue4.jpg" alt="">
+                            <i class="fas play-btn fa-play white-p"></i>
+                        </div>
+                        <div class="song-play-name">
+                            <span class="white-p queue-disc">
+                                <p>New Skin</p>
+                                <p class="dull">Flume</p>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="queue-right playlist-icon">
+                        <button>
+                            <i class="far wishlist-icon fa-heart"></i>
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="queue-card playlist-songs">
+                    <div class="playlist-left">
+
+                        <span class="white-p dull" id="number-song">05</span>
+                        <div class="queue-img img-size">
+                            <img src="/major_project/images/queue5.jpg" alt="">
+                            <i class="fas play-btn fa-play white-p"></i>
+                        </div>
+                        <div class="song-play-name">
+                            <span class="white-p queue-disc">
+                                <p>Worry About Us</p>
+                                <p class="dull">else</p>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="queue-right playlist-icon">
+                        <button>
+                            <i class="far wishlist-icon fa-heart"></i>
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="queue-card playlist-songs">
+                    <div class="playlist-left">
+
+                        <span class="white-p dull" id="number-song">06</span>
+                        <div class="queue-img img-size">
+                            <img src="/major_project/images/queue6.jpg" alt="">
+                            <i class="fas play-btn fa-play white-p"></i>
+                        </div>
+                        <div class="song-play-name">
+                            <span class="white-p queue-disc">
+                                <p>New Skin</p>
+                                <p class="dull">Helen</p>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="queue-right playlist-icon">
+                        <button>
+                            <i class="far wishlist-icon fa-heart"></i>
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="queue-card playlist-songs">
+                    <div class="playlist-left">
+
+                        <span class="white-p dull" id="number-song">07</span>
+                        <div class="queue-img img-size">
+                            <img src="/major_project/images/queue1.jpg" alt="">
+                            <i class="fas play-btn fa-play white-p"></i>
+                        </div>
+                        <div class="song-play-name">
+                            <span class="white-p queue-disc">
+                                <p>Mirage</p>
+                                <p class="dull">else</p>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="queue-right playlist-icon">
+                        <button>
+                            <i class="far wishlist-icon fa-heart"></i>
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="playlist-aside-section">
+            <div class="similar-playlist">
+                <div class="similar-playlist-head">
+                    <h4>Similar Artists</h4>
+                    <span> <a href="/major_project/single-playlist-screen.html">View All</a> </span>
+                </div>
+                <div class="similar-songs">
+                        <div class="similar-left-view">
+                            <div class="play-similar-icon">
+                                <i class="fa fa-play"></i>
+                            </div>
+                            <div class="play-similar-disc">
+                            <span>Onism<br> <br> AUG 11,2017</span></div>    
+                        </div>
+                        <div class="similar-right-view">
+                            <div class="dropdown ">
+                                <button class="btn btn-secondary" id="drop-down-container" type="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa fa-ellipsis-h white-p"></i>
+                                </button>
+                                <ul class="dropdown-menu " id="drop-down-list">
+                                    <li><a class="dropdown-item " href="#">Play Now</a></li>
+                                    <li><a class="dropdown-item" href="#">Add to Queue</a></li>
+                                    <li><a class="dropdown-item" href="#">Add to Favourite</a></li>
+                                </ul>
+                            </div>
+                            <br>
+                            <span>4:44</span>
+
+                        </div>
+                </div>
+                <div class="similar-songs">
+                    <div class="similar-left-view">
+                        <div class="play-similar-icon">
+                            <i class="fa fa-play"></i>
+                        </div>
+                        <div class="play-similar-disc">
+                        <span>Onism<br> <br> AUG 11,2017</span></div>    
+                    </div>
+                    <div class="similar-right-view">
+                        <div class="dropdown ">
+                            <button class="btn btn-secondary" id="drop-down-container" type="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa fa-ellipsis-h white-p"></i>
+                            </button>
+                            <ul class="dropdown-menu " id="drop-down-list">
+                                <li><a class="dropdown-item " href="#">Play Now</a></li>
+                                <li><a class="dropdown-item" href="#">Add to Queue</a></li>
+                                <li><a class="dropdown-item" href="#">Add to Favourite</a></li>
+                            </ul>
+                        </div>
+                        <br>
+                        <span>4:44</span>
+
+                    </div>
+            </div>
+            <div class="similar-songs">
+                <div class="similar-left-view">
+                    <div class="play-similar-icon">
+                        <i class="fa fa-play"></i>
+                    </div>
+                    <div class="play-similar-disc">
+                    <span>Onism<br> <br> AUG 11,2017</span></div>    
+                </div>
+                <div class="similar-right-view">
+                    <div class="dropdown ">
+                        <button class="btn btn-secondary" id="drop-down-container" type="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa fa-ellipsis-h white-p"></i>
+                        </button>
+                        <ul class="dropdown-menu " id="drop-down-list">
+                            <li><a class="dropdown-item " href="#">Play Now</a></li>
+                            <li><a class="dropdown-item" href="#">Add to Queue</a></li>
+                            <li><a class="dropdown-item" href="#">Add to Favourite</a></li>
+                        </ul>
+                    </div>
+                    <br>
+                    <span>4:44</span>
+
+                </div>
+        </div>
+                
+            </div>
+            <div class="recently-played white-p">
+                <div class="recently-play-head">
+                    <h5>Recently Played</h5>
+                    <p>View All</p>
+                </div>
+                <div class="recent-songs">
+                    <div class="recent-queue-card playlist-songs">
+                        <div class="playlist-left">
+    
+                            <span class="white-p dull" id="number-song">01</span>
+                            <div class="queue-img img-size">
+                                <img src="/major_project/images/queue12.jpg" alt="">
+                                <i class="fas play-btn fa-play white-p"></i>
+                            </div>
+                            <div class="song-play-name">
+                                <span class="white-p queue-disc">
+                                    <p>Mirage</p>
+                                    <p class="dull">else</p>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="queue-right playlist-icon">
+                            <button>
+                                <i class="far wishlist-icon fa-heart"></i>
+                               
+                            </button>
+                        </div>
+                    </div>
+                    <div class="recent-queue-card playlist-songs">
+                        <div class="playlist-left">
+    
+                            <span class="white-p dull" id="number-song">02</span>
+                            <div class="queue-img img-size">
+                                <img src="/major_project/images/queue5.jpg" alt="">
+                                <i class="fas play-btn fa-play white-p"></i>
+                            </div>
+                            <div class="song-play-name">
+                                <span class="white-p queue-disc">
+                                    <p>Mirage</p>
+                                    <p class="dull">Potter</p>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="queue-right playlist-icon">
+                            <button>
+                                <i class="far wishlist-icon fa-heart"></i>
+                               
+                            </button>
+                        </div>
+                    </div>
+                    <div class="recent-queue-card playlist-songs">
+                        <div class="playlist-left">
+    
+                            <span class="white-p dull" id="number-song">03</span>
+                            <div class="queue-img img-size">
+                                <img src="/major_project/images/queue9.jpg" alt="">
+                                <i class="fas play-btn fa-play white-p"></i>
+                            </div>
+                            <div class="song-play-name">
+                                <span class="white-p queue-disc">
+                                    <p>Mirage</p>
+                                    <p class="dull">Harry</p>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="queue-right playlist-icon">
+                            <button>
+                                <i class="far wishlist-icon fa-heart"></i>
+                               
+                            </button>
+                        </div>
+                    </div>
+                    <div class="recent-queue-card playlist-songs">
+                        <div class="playlist-left">
+    
+                            <span class="white-p dull" id="number-song">04</span>
+                            <div class="queue-img img-size">
+                                <img src="/major_project/images/queue10.jpg" alt="">
+                                <i class="fas play-btn fa-play white-p"></i>
+                            </div>
+                            <div class="song-play-name">
+                                <span class="white-p queue-disc">
+                                    <p>Mirage</p>
+                                    <p class="dull">else imla</p>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="queue-right playlist-icon">
+                            <button>
+                                <i class="far wishlist-icon fa-heart"></i>
+                               
+                            </button>
+                        </div>
+                    </div>
+                    <div class="recent-queue-card playlist-songs">
+                        <div class="playlist-left">
+    
+                            <span class="white-p dull" id="number-song">05</span>
+                            <div class="queue-img img-size">
+                                <img src="/major_project/images/queue2.jpg" alt="">
+                                <i class="fas play-btn fa-play white-p"></i>
+                            </div>
+                            <div class="song-play-name">
+                                <span class="white-p queue-disc">
+                                    <p>Mirage</p>
+                                    <p class="dull">else</p>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="queue-right playlist-icon">
+                            <button>
+                                <i class="far wishlist-icon fa-heart"></i>
+                               
+                            </button>
+                        </div>
+                    </div>
+                    <div class="recent-queue-card playlist-songs">
+                        <div class="playlist-left">
+    
+                            <span class="white-p dull" id="number-song">06</span>
+                            <div class="queue-img img-size">
+                                <img src="/major_project/images/queue11.jpg" alt="">
+                                <i class="fas play-btn fa-play white-p"></i>
+                            </div>
+                            <div class="song-play-name">
+                                <span class="white-p queue-disc">
+                                    <p>Mirage</p>
+                                    <p class="dull">digipoler</p>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="queue-right playlist-icon">
+                            <button>
+                                <i class="far wishlist-icon fa-heart"></i>
+                               
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- footer player -->
+        <footer>
+            <div class="song-info">
+
+                <div class="footer-img img-size">
+                    <img src="/major_project/images/queue2.jpg" alt="">
+                </div>
+                <span class="queue-disc white-p">
+                    <p> Kiss Me More</p>
+                    <p class="dull">Doja Cat</p>
+                </span>
+                <div class="queue-right">
+                    <button class="trans-back">
+                        <i class="far wishlist-icon fa-heart"></i>
+                        <br>
+                        <i class="fas fa-ban subtitle"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="player white-p">
+                <div class="player-control ">
+                    <div class="control-icon"><i class="fas fa-random"></i></div>
+                    <div class="control-icon"><i class="fas fa-step-backward"></i></div>
+                    <div class="control-icon"><i class="far fa-pause-circle"></i></div>
+                    <div class="control-icon"><i class="fas fa-step-forward"></i></div>
+                    <div class="control-icon"><i class="fas fa-redo"></i></div>
+                </div>
+                <div class="player-slider">
+                    <div>
+                        0:00
+                    </div>
+                    <input type="range" min="0" max="100" value="25">
+                    <div>
+                        4:44
+                    </div>
+                </div>
+            </div>
+            <div class="extras white-p">
+                <div><i class="fas fa-list-ul"></i></div>
+                <div><i class="fas fa-laptop"></i></div>
+                <div>
+                    <span><i class="fas fa-volume-up"></i></span>
+                    <input type="range" min="0" max="100" value="50">
+                </div>
+                <div><i class="fas fa-expand"></i></div>
+            </div>
+        </footer>
+    </main>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+<script src="script.js"></script>
+
+</html>
