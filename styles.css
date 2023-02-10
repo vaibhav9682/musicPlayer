@@ -180,7 +180,7 @@ form button{
    height:90%;
    /* border:2px solid cyan; */
    /* display:inline-block; */
-   background-image: url(/major_project/images/latest.jpg);
+   background-image: url(./images/latest.jpg);
    background-size:contain;
 }
 .play-icon i{
@@ -194,7 +194,7 @@ form button{
  color:white;
  /* background-color: rgb(153, 153, 153); */
 }
-#drop-down-container{
+.dropdown .drop-down-container{
    background-color:transparent;
    border:none;
   
@@ -271,22 +271,22 @@ form button{
    }
 
 #artist-1{
-   background-image: url(/major_project/images/ed-sheeran.jpg);
+   background-image: url(./images/ed-sheeran.jpg);
 }
 #artist-2{
-   background-image: url(/major_project/images/charlie-puth.jpg);
+   background-image: url(./images/charlie-puth.jpg);
 }
 #artist-3{
-   background-image: url(/major_project/images/cold-play.jpg);
+   background-image: url(./images/cold-play.jpg);
 }
 #artist-4{
-   background-image: url(/major_project/images/bruno-mars.jpg);
+   background-image: url(./images/bruno-mars.jpg);
 }
 #artist-5{
-   background-image: url(/major_project/images/imagine-dragon.jpg);
+   background-image: url(./images/imagine-dragon.jpg);
 }
 #artist-6{
-   background-image: url(/major_project/images/zayn.jpg);
+   background-image: url(./images/zayn.jpg);
 }
 
 /* Channel Section */
@@ -310,25 +310,25 @@ color: rgb(253, 253, 253);
   background-color: rgb(4, 4, 70);
 }
 .love-channel{
-background-image: url(/major_project/images/station-love.jpg);
+background-image: url(./images/station-love.jpg);
 
 }
 .pop-channel{
-   background-image: url(/major_project/images/station-pop.jpg);
+   background-image: url(./images/station-pop.jpg);
 }
 .rock-channel{
-   background-image: url(/major_project/images/station-rock.jpg);
+   background-image: url(./images/station-rock.jpg);
    
 }
 
 .chill-channel{
-   background-image: url(/major_project/images/station-chill.jpg); 
+   background-image: url(./images/station-chill.jpg); 
 }
 .retro-channel{
-   background-image: url(/major_project/images/Station-retro.png);
+   background-image: url(./images/Station-retro.png);
 }
 .workout-channel{
-   background-image: url(/major_project/images/station-workout.jpg);
+   background-image: url(./images/station-workout.jpg);
    
 }
 .channel-logo{
@@ -368,13 +368,13 @@ background-image: url(/major_project/images/station-love.jpg);
 }
 
 .genre-electronic{
-   background-image: url(/major_project/images/genre-electronic.jpg); 
+   background-image: url(./images/genre-electronic.jpg); 
 }
 .genre-party{
-   background-image: url(/major_project/images/genere-party.jpg);
+   background-image: url(./images/genere-party.jpg);
 }
 .genre-roadtrip{
-   background-image: url(/major_project/images/genre-road-trip.jpg);
+   background-image: url(./images/genre-road-trip.jpg);
 }
 .genre:hover {
    transform: scale(1.09);
@@ -724,7 +724,7 @@ height: 45%;
    height:100%;
    /* border:2px solid cyan; */
    /* display:inline-block; */
-   background-image: url(/major_project/images/queue1.jpg);
+   background-image: url(./images/queue1.jpg);
    background-size:contain;
 }
 .play-similar-icon i{
